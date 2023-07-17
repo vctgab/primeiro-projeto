@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.father{
+    margin: 0px;
+    position: relative;
+}
+html{
+    height: 5000px;
+}
+.one{
+    position: static;
+    top: 200px
+}
+
+.two{
+    position: static;
+}
+
+.three{
+    position: static;
+}
+
+body::-webkit-scrollbar{width: 12px;}
+body::-webkit-scrollbar-track{background: #e6e6e6;}
+body::-webkit-scrollbar-thumb{background-color: #999999; border-radius: 12px; border: 2px solid #e6e6e6;}
+body::-webkit-scrollbar-thumb:hover{background-color: #7c7c7c; border-radius: 12px;}
